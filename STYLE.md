@@ -2,9 +2,9 @@
 
 ## Markdown
 
-Use [remark-lint](https://github.com/wooorm/remark-lint). There's a nice [plugin
+Use [remark-lint](https://git.generalassemb.lywooorm/remark-lint). There's a nice [plugin
 for Atom](https://atom.io/packages/linter-markdown). Have a look at the [default
-style rules](https://github.com/wooorm/remark-lint/blob/master/doc/rules.md) and
+style rules](https://git.generalassemb.lywooorm/remark-lint/blob/master/doc/rules.md) and
 our own [.remarkrc](.remarkrc) for non-default configuration options. These
 rules are selected for readability of source code compatibility with GitHub
 wiki features.
