@@ -28,7 +28,7 @@ By the end of this, developers should be able to:
 Sometimes a method is associated with a class, not an object.
 
 Observe how a Method on a **Class** differs from a method on an **Instance**
-that Class.
+of that Class.
 
 <!-- Diagram the difference between #initialize and ::new
  See issue #10
@@ -36,13 +36,13 @@ that Class.
 
 Let's discuss the code below in [`lib/pet.rb`](lib/pet.rb)
 
-In the Animal class, and the `::new` method is recieved by the Animal class, with 'Zeno' and 'cat' as an arguments. It then calls the instance method `#initialize` with 'Zeno' and 'cat' as an arguments, which assigns 'Zeno' to an instance variable, `@name` and 'cat' to the instance variable `@species`.
+In the Animal class, the `::new` method is received with 'Zeno' and 'cat' as arguments. It then calls the instance method `#initialize` with 'Zeno' and 'cat' as arguments. This assigns 'Zeno' to an instance variable, `@name` and 'cat' to the instance variable `@species`.
 
 The Pet class is different.  The Pet class is used here to give us meta-data
 about a list of Pets. When we get to Rails, this data will be information we
 get back from the database.
 
-Where will the method `dog_count` be recieved?
+Where will the method `dog_count` be received?
 What about `all`?
 
 ## Lab: Make a Class Method
@@ -53,7 +53,7 @@ What about `all`?
 -   Use `bin/rake test` to test your work
 
 Bonus:
--   Make your search be insensitive to case ('Formation' and 'formation' return
+-   Make the search insensitive to case ('Formation' and 'formation' return
     the same song)
 -   Make the search look for part of a word ('ation' also returns the song
     'Formation')
