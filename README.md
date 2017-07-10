@@ -4,7 +4,7 @@
 
 ## Prerequisites
 
--   [ruby-objects-self](https://git.generalassemb.lyga-wdi-boston/ruby-objects-self)
+-   [ruby-objects-self](https://git.generalassemb.ly/ga-wdi-boston/ruby-object-self)
 
 ## Objectives
 
@@ -18,7 +18,7 @@ By the end of this, developers should be able to:
 ## Preparation
 
 1.  Fork and clone this repository.
- [FAQ](https://git.generalassemb.lyga-wdi-boston/meta/wiki/ForkAndClone)
+ [FAQ](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone)
 1.  Create a new branch, `training`, for your work.
 1.  Checkout to the `training` branch.
 1.  Install dependencies with `bundle install`.
