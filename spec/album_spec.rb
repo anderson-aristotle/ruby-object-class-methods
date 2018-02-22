@@ -15,8 +15,8 @@ describe 'Album' do
     end
 
     context 'case insensitive search' do
-      let(:song){Album.search('formation')}
-      let(:song_sorry){Album.search('SORRY')}
+      let(:song) { Album.search('formation') }
+      let(:song_sorry) { Album.search('SORRY') }
       it 'can find a song case insenstive' do
         expect(song).to be_a(Song)
         expect(song.title).to eq 'Formation'
@@ -25,8 +25,8 @@ describe 'Album' do
     end
 
     context 'partial match' do
-      let(:song){Album.search('free')}
-      let(:song_sandcastles){Album.search('ASTL')}
+      let(:song) { Album.search('free') }
+      let(:song_sandcastles) { Album.search('ASTL') }
       it 'can find a song given partial title' do
         expect(song.title).to eq 'Freedom'
         expect(song_sandcastles.title).to eq 'Sandcastles'
