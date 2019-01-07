@@ -4,24 +4,24 @@
 
 ## Prerequisites
 
--   [ruby-objects-self](https://git.generalassemb.ly/ga-wdi-boston/ruby-object-self)
+- [ruby-objects-self](https://git.generalassemb.ly/ga-wdi-boston/ruby-object-self)
 
 ## Objectives
 
 By the end of this, developers should be able to:
 
--   Give an example of a class method you already use.
--   Diagram the invocation pattern between `#initialize` and `.new`.
--   Contrast defining class methods with defining instance methods.
--   Contrast invoking class methods with invoking instance methods.
+- Give an example of a class method you already use.
+- Diagram the invocation pattern between `#initialize` and `.new`.
+- Contrast defining class methods with defining instance methods.
+- Contrast invoking class methods with invoking instance methods.
 
 ## Preparation
 
-1.  Fork and clone this repository.
+1. Fork and clone this repository.
  [FAQ](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone)
-1.  Create a new branch, `training`, for your work.
-1.  Checkout to the `training` branch.
-1.  Install dependencies with `bundle install`.
+1. Create a new branch, `training`, for your work.
+1. Checkout to the `training` branch.
+1. Install dependencies with `bundle install`.
 
 ## Demo: Class Methods
 
@@ -36,7 +36,10 @@ of that Class.
 
 Let's discuss the code below in [`lib/pet.rb`](lib/pet.rb)
 
-In the Animal class, the `::new` method is received with 'Zeno' and 'cat' as arguments. It then calls the instance method `#initialize` with 'Zeno' and 'cat' as arguments. This assigns 'Zeno' to an instance variable, `@name` and 'cat' to the instance variable `@species`.
+In the Animal class, the `::new` method is received with 'Zeno' and 'cat' as
+arguments. It then calls the instance method `#initialize` with 'Zeno' and 'cat'
+as arguments. This assigns 'Zeno' to an instance variable, `@name` and 'cat' to
+the instance variable `@species`.
 
 The Pet class is different.  The Pet class is used here to give us meta-data
 about a list of Pets. When we get to Rails, this data will be information we
@@ -47,19 +50,20 @@ What about `all`?
 
 ## Lab: Make a Class Method
 
--   Make a class method, `search` on Album (in `lib/album.rb`) to search the
+- Make a class method, `search` on Album (in `lib/album.rb`) to search the
     collection of songs by `title`.
--   Make a class method `count` that returns the total number of songs on the album.
--   Use `bin/rake test` to test your work
+- Make a class method `count` that returns the total number of songs on the album.
+- Use `bin/rake test` to test your work
 
 Bonus:
--   Make the search insensitive to case ('Formation' and 'formation' return
+
+- Make the search insensitive to case ('Formation' and 'formation' return
     the same song)
--   Make the search look for part of a word ('ation' also returns the song
+- Make the search look for part of a word ('ation' also returns the song
     'Formation')
 
 ## [License](LICENSE)
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+1. All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
