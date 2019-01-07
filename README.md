@@ -25,7 +25,8 @@ By the end of this, developers should be able to:
 
 ## Demo: Class Methods
 
-Sometimes a method is associated with a class, not an object.
+Sometimes a method is associated with the class itself, and other times a method
+is associated with the instance of the class.
 
 Observe how a Method on a **Class** differs from a method on an **Instance**
 of that Class.
